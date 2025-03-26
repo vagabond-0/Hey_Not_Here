@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Hey Not Here",
+    "version": "1.0",
+    "description": "A extension  Chrome Extension to detect phishing website ",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "vite.svg"
+    },
+    "permissions": ["tabs"],
+    "host_permissions": ["https://*/*", "http://*/*"]
+  }
+  
